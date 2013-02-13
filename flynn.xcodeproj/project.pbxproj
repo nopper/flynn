@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15428D2B16CBA12B001C4F6E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15428D2A16CBA12B001C4F6E /* Cocoa.framework */; };
+		15428D3516CBA12B001C4F6E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 15428D3316CBA12B001C4F6E /* InfoPlist.strings */; };
+		15428D3716CBA12B001C4F6E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15428D3616CBA12B001C4F6E /* main.m */; };
+		15428D3B16CBA12B001C4F6E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 15428D3916CBA12B001C4F6E /* Credits.rtf */; };
+		15428D3E16CBA12B001C4F6E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15428D3D16CBA12B001C4F6E /* AppDelegate.m */; };
+		15428D4116CBA12B001C4F6E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15428D3F16CBA12B001C4F6E /* MainMenu.xib */; };
+		15428D4916CBA12C001C4F6E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15428D4816CBA12C001C4F6E /* SenTestingKit.framework */; };
+		15428D4A16CBA12C001C4F6E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15428D2A16CBA12B001C4F6E /* Cocoa.framework */; };
+		15428D5216CBA12C001C4F6E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 15428D5016CBA12C001C4F6E /* InfoPlist.strings */; };
+		15428D5516CBA12C001C4F6E /* flynnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15428D5416CBA12C001C4F6E /* flynnTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15428D4B16CBA12C001C4F6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15428D1F16CBA12B001C4F6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15428D2616CBA12B001C4F6E;
+			remoteInfo = flynn;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15428D2716CBA12B001C4F6E /* flynn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flynn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15428D2A16CBA12B001C4F6E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		15428D2D16CBA12B001C4F6E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		15428D2E16CBA12B001C4F6E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		15428D2F16CBA12B001C4F6E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		15428D3216CBA12B001C4F6E /* flynn-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "flynn-Info.plist"; sourceTree = "<group>"; };
+		15428D3416CBA12B001C4F6E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		15428D3616CBA12B001C4F6E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		15428D3816CBA12B001C4F6E /* flynn-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "flynn-Prefix.pch"; sourceTree = "<group>"; };
+		15428D3A16CBA12B001C4F6E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		15428D3C16CBA12B001C4F6E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		15428D3D16CBA12B001C4F6E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		15428D4016CBA12B001C4F6E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		15428D4716CBA12C001C4F6E /* flynnTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = flynnTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15428D4816CBA12C001C4F6E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		15428D4F16CBA12C001C4F6E /* flynnTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "flynnTests-Info.plist"; sourceTree = "<group>"; };
+		15428D5116CBA12C001C4F6E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		15428D5316CBA12C001C4F6E /* flynnTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = flynnTests.h; sourceTree = "<group>"; };
+		15428D5416CBA12C001C4F6E /* flynnTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = flynnTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15428D2416CBA12B001C4F6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15428D2B16CBA12B001C4F6E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15428D4316CBA12C001C4F6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15428D4916CBA12C001C4F6E /* SenTestingKit.framework in Frameworks */,
+				15428D4A16CBA12C001C4F6E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15428D1E16CBA12B001C4F6E = {
+			isa = PBXGroup;
+			children = (
+				15428D3016CBA12B001C4F6E /* flynn */,
+				15428D4D16CBA12C001C4F6E /* flynnTests */,
+				15428D2916CBA12B001C4F6E /* Frameworks */,
+				15428D2816CBA12B001C4F6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15428D2816CBA12B001C4F6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15428D2716CBA12B001C4F6E /* flynn.app */,
+				15428D4716CBA12C001C4F6E /* flynnTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15428D2916CBA12B001C4F6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15428D2A16CBA12B001C4F6E /* Cocoa.framework */,
+				15428D4816CBA12C001C4F6E /* SenTestingKit.framework */,
+				15428D2C16CBA12B001C4F6E /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		15428D2C16CBA12B001C4F6E /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15428D2D16CBA12B001C4F6E /* AppKit.framework */,
+				15428D2E16CBA12B001C4F6E /* CoreData.framework */,
+				15428D2F16CBA12B001C4F6E /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		15428D3016CBA12B001C4F6E /* flynn */ = {
+			isa = PBXGroup;
+			children = (
+				15428D3C16CBA12B001C4F6E /* AppDelegate.h */,
+				15428D3D16CBA12B001C4F6E /* AppDelegate.m */,
+				15428D3F16CBA12B001C4F6E /* MainMenu.xib */,
+				15428D3116CBA12B001C4F6E /* Supporting Files */,
+			);
+			path = flynn;
+			sourceTree = "<group>";
+		};
+		15428D3116CBA12B001C4F6E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				15428D3216CBA12B001C4F6E /* flynn-Info.plist */,
+				15428D3316CBA12B001C4F6E /* InfoPlist.strings */,
+				15428D3616CBA12B001C4F6E /* main.m */,
+				15428D3816CBA12B001C4F6E /* flynn-Prefix.pch */,
+				15428D3916CBA12B001C4F6E /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		15428D4D16CBA12C001C4F6E /* flynnTests */ = {
+			isa = PBXGroup;
+			children = (
+				15428D5316CBA12C001C4F6E /* flynnTests.h */,
+				15428D5416CBA12C001C4F6E /* flynnTests.m */,
+				15428D4E16CBA12C001C4F6E /* Supporting Files */,
+			);
+			path = flynnTests;
+			sourceTree = "<group>";
+		};
+		15428D4E16CBA12C001C4F6E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				15428D4F16CBA12C001C4F6E /* flynnTests-Info.plist */,
+				15428D5016CBA12C001C4F6E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15428D2616CBA12B001C4F6E /* flynn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15428D5816CBA12C001C4F6E /* Build configuration list for PBXNativeTarget "flynn" */;
+			buildPhases = (
+				15428D2316CBA12B001C4F6E /* Sources */,
+				15428D2416CBA12B001C4F6E /* Frameworks */,
+				15428D2516CBA12B001C4F6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = flynn;
+			productName = flynn;
+			productReference = 15428D2716CBA12B001C4F6E /* flynn.app */;
+			productType = "com.apple.product-type.application";
+		};
+		15428D4616CBA12C001C4F6E /* flynnTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15428D5B16CBA12C001C4F6E /* Build configuration list for PBXNativeTarget "flynnTests" */;
+			buildPhases = (
+				15428D4216CBA12C001C4F6E /* Sources */,
+				15428D4316CBA12C001C4F6E /* Frameworks */,
+				15428D4416CBA12C001C4F6E /* Resources */,
+				15428D4516CBA12C001C4F6E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15428D4C16CBA12C001C4F6E /* PBXTargetDependency */,
+			);
+			name = flynnTests;
+			productName = flynnTests;
+			productReference = 15428D4716CBA12C001C4F6E /* flynnTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15428D1F16CBA12B001C4F6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = nopper;
+			};
+			buildConfigurationList = 15428D2216CBA12B001C4F6E /* Build configuration list for PBXProject "flynn" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 15428D1E16CBA12B001C4F6E;
+			productRefGroup = 15428D2816CBA12B001C4F6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15428D2616CBA12B001C4F6E /* flynn */,
+				15428D4616CBA12C001C4F6E /* flynnTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15428D2516CBA12B001C4F6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15428D3516CBA12B001C4F6E /* InfoPlist.strings in Resources */,
+				15428D3B16CBA12B001C4F6E /* Credits.rtf in Resources */,
+				15428D4116CBA12B001C4F6E /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15428D4416CBA12C001C4F6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15428D5216CBA12C001C4F6E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15428D4516CBA12C001C4F6E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15428D2316CBA12B001C4F6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15428D3716CBA12B001C4F6E /* main.m in Sources */,
+				15428D3E16CBA12B001C4F6E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15428D4216CBA12C001C4F6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15428D5516CBA12C001C4F6E /* flynnTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15428D4C16CBA12C001C4F6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15428D2616CBA12B001C4F6E /* flynn */;
+			targetProxy = 15428D4B16CBA12C001C4F6E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		15428D3316CBA12B001C4F6E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15428D3416CBA12B001C4F6E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		15428D3916CBA12B001C4F6E /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15428D3A16CBA12B001C4F6E /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		15428D3F16CBA12B001C4F6E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15428D4016CBA12B001C4F6E /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		15428D5016CBA12C001C4F6E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15428D5116CBA12C001C4F6E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15428D5616CBA12C001C4F6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		15428D5716CBA12C001C4F6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		15428D5916CBA12C001C4F6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "flynn/flynn-Prefix.pch";
+				INFOPLIST_FILE = "flynn/flynn-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		15428D5A16CBA12C001C4F6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "flynn/flynn-Prefix.pch";
+				INFOPLIST_FILE = "flynn/flynn-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		15428D5C16CBA12C001C4F6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/flynn.app/Contents/MacOS/flynn";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "flynn/flynn-Prefix.pch";
+				INFOPLIST_FILE = "flynnTests/flynnTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		15428D5D16CBA12C001C4F6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/flynn.app/Contents/MacOS/flynn";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "flynn/flynn-Prefix.pch";
+				INFOPLIST_FILE = "flynnTests/flynnTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15428D2216CBA12B001C4F6E /* Build configuration list for PBXProject "flynn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15428D5616CBA12C001C4F6E /* Debug */,
+				15428D5716CBA12C001C4F6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15428D5816CBA12C001C4F6E /* Build configuration list for PBXNativeTarget "flynn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15428D5916CBA12C001C4F6E /* Debug */,
+				15428D5A16CBA12C001C4F6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		15428D5B16CBA12C001C4F6E /* Build configuration list for PBXNativeTarget "flynnTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15428D5C16CBA12C001C4F6E /* Debug */,
+				15428D5D16CBA12C001C4F6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15428D1F16CBA12B001C4F6E /* Project object */;
+}

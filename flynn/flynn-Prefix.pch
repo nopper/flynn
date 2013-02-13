@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'flynn' target in the 'flynn' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
