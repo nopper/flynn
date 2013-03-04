@@ -17,6 +17,10 @@
 		15428D4A16CBA12C001C4F6E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15428D2A16CBA12B001C4F6E /* Cocoa.framework */; };
 		15428D5216CBA12C001C4F6E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 15428D5016CBA12C001C4F6E /* InfoPlist.strings */; };
 		15428D5516CBA12C001C4F6E /* flynnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15428D5416CBA12C001C4F6E /* flynnTests.m */; };
+		1570DB3816E14D4D0092AAA5 /* TableCpuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1570DB3716E14D4D0092AAA5 /* TableCpuViewController.m */; };
+		1570DB3B16E2266E0092AAA5 /* Cpu.m in Sources */ = {isa = PBXBuildFile; fileRef = 1570DB3A16E2266E0092AAA5 /* Cpu.m */; };
+		15F556F316E3D46400C39FCF /* flynn_full.png in Resources */ = {isa = PBXBuildFile; fileRef = 15F556F216E3D46400C39FCF /* flynn_full.png */; };
+		15F556F516E3D50500C39FCF /* flynn.icns in Resources */ = {isa = PBXBuildFile; fileRef = 15F556F416E3D50500C39FCF /* flynn.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,12 @@
 		15428D5116CBA12C001C4F6E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		15428D5316CBA12C001C4F6E /* flynnTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = flynnTests.h; sourceTree = "<group>"; };
 		15428D5416CBA12C001C4F6E /* flynnTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = flynnTests.m; sourceTree = "<group>"; };
+		1570DB3616E14D4D0092AAA5 /* TableCpuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableCpuViewController.h; sourceTree = "<group>"; };
+		1570DB3716E14D4D0092AAA5 /* TableCpuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableCpuViewController.m; sourceTree = "<group>"; };
+		1570DB3916E2266E0092AAA5 /* Cpu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cpu.h; sourceTree = "<group>"; };
+		1570DB3A16E2266E0092AAA5 /* Cpu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cpu.m; sourceTree = "<group>"; };
+		15F556F216E3D46400C39FCF /* flynn_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flynn_full.png; sourceTree = "<group>"; };
+		15F556F416E3D50500C39FCF /* flynn.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = flynn.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +85,8 @@
 		15428D1E16CBA12B001C4F6E = {
 			isa = PBXGroup;
 			children = (
+				15F556F416E3D50500C39FCF /* flynn.icns */,
+				15F556F116E3D43900C39FCF /* images */,
 				15428D3016CBA12B001C4F6E /* flynn */,
 				15428D4D16CBA12C001C4F6E /* flynnTests */,
 				15428D2916CBA12B001C4F6E /* Frameworks */,
@@ -116,8 +128,12 @@
 			children = (
 				15428D3C16CBA12B001C4F6E /* AppDelegate.h */,
 				15428D3D16CBA12B001C4F6E /* AppDelegate.m */,
+				1570DB3916E2266E0092AAA5 /* Cpu.h */,
+				1570DB3A16E2266E0092AAA5 /* Cpu.m */,
 				15428D3F16CBA12B001C4F6E /* MainMenu.xib */,
 				15428D3116CBA12B001C4F6E /* Supporting Files */,
+				1570DB3616E14D4D0092AAA5 /* TableCpuViewController.h */,
+				1570DB3716E14D4D0092AAA5 /* TableCpuViewController.m */,
 			);
 			path = flynn;
 			sourceTree = "<group>";
@@ -151,6 +167,14 @@
 				15428D5016CBA12C001C4F6E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		15F556F116E3D43900C39FCF /* images */ = {
+			isa = PBXGroup;
+			children = (
+				15F556F216E3D46400C39FCF /* flynn_full.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,6 +251,8 @@
 				15428D3516CBA12B001C4F6E /* InfoPlist.strings in Resources */,
 				15428D3B16CBA12B001C4F6E /* Credits.rtf in Resources */,
 				15428D4116CBA12B001C4F6E /* MainMenu.xib in Resources */,
+				15F556F316E3D46400C39FCF /* flynn_full.png in Resources */,
+				15F556F516E3D50500C39FCF /* flynn.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +289,8 @@
 			files = (
 				15428D3716CBA12B001C4F6E /* main.m in Sources */,
 				15428D3E16CBA12B001C4F6E /* AppDelegate.m in Sources */,
+				1570DB3816E14D4D0092AAA5 /* TableCpuViewController.m in Sources */,
+				1570DB3B16E2266E0092AAA5 /* Cpu.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,6 +401,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -380,11 +409,14 @@
 		15428D5916CBA12C001C4F6E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "flynn/flynn-Prefix.pch";
 				INFOPLIST_FILE = "flynn/flynn-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -392,11 +424,14 @@
 		15428D5A16CBA12C001C4F6E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "flynn/flynn-Prefix.pch";
 				INFOPLIST_FILE = "flynn/flynn-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -450,6 +485,7 @@
 				15428D5A16CBA12C001C4F6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		15428D5B16CBA12C001C4F6E /* Build configuration list for PBXNativeTarget "flynnTests" */ = {
 			isa = XCConfigurationList;
@@ -458,6 +494,7 @@
 				15428D5D16CBA12C001C4F6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
