@@ -10,7 +10,7 @@ Flynn takes inspiration from [GkrellmFlynn](http://bax.comlab.uni-rostock.de/en/
 Download
 ========
 
-Use the download page of GitHub to download the latest version.
+The latest version of the software can be downloaded following [this link](http://nopper.archpwn.org/static/upload/flynn-latest.zip).
 
 How to build
 ============
